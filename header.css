@@ -41,7 +41,7 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1024) {
+@media screen and (max-width: 1024px) {
   .mobile-header {
     display: flex;
     justify-content: space-between;
