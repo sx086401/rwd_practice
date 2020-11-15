@@ -1,0 +1,50 @@
+.my-header {
+  background-color: rgb(67, 66, 91);
+  padding: 12px;
+}
+
+#logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+}
+
+#search-input {
+  width: 273px;
+  font-size: 12px;
+  background-color: hsla(0, 0%, 100%, 0.125);
+  border: 0;
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 3px 12px;
+  color: #ffffff;
+
+  transition-property: width;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+/* you need something for transition */
+#search-input:focus {
+  width: 400px;
+  outline: none;
+  background-color: #ffffff;
+  color: black;
+}
+
+.desktop-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024) {
+  .mobile-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mobile-header > img {
+    width: 24px;
+    height: 24px;
+  }
+}

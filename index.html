@@ -12,9 +12,27 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="/header.css" />
     <title>RWD DEMO</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <header class="my-header">
+      <div class="desktop-header d-none d-md-flex">
+        <section>
+          <img src="/assets/search-24px.svg" alt="search" />
+          <input id="search-input"></input>
+        </section>
+        <section>
+          <img src="/assets/article-24px.svg" alt="article" />
+        </section>
+      </div>
+
+      <div class="mobile-header d-flex d-md-none">
+        <img src="/assets/search-24px.svg" alt="search" />
+        <img src="/assets/calendar_today-24px.svg" alt="calendar" />
+        <img src="/assets/article-24px.svg" alt="article" />
+      </div>
+    </header>
   </body>
-</html>>
+</html>
