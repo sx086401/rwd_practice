@@ -32,6 +32,10 @@
   color: black;
 }
 
+#search-input::placeholder {
+  color: #ffffff;
+}
+
 .desktop-header {
   display: flex;
   justify-content: space-between;
