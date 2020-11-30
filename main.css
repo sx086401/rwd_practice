@@ -4,6 +4,7 @@
 
 .info-btn{
   display: inline-block;
+  margin-left: 10px;
   border: 1px solid gray;
   border-radius: 5px;
 }
@@ -24,4 +25,15 @@
 
 .info-btn > span:last-of-type:hover {
   color: blue;
+}
+
+@media screen and (max-width: 1024px) {
+  .info-btn {
+    width: 50%;
+    text-align: center;
+  }
+
+  .info-btn > span:first-of-type {
+    border-right: none;
+  }
 }
