@@ -11,8 +11,17 @@
 .info-btn > span {
   display: inline-block;
   padding: 3px 12px;
+  cursor: pointer;
 }
 
-.info-btn > span:first-of-type{
+.info-btn > span:first-of-type {
   border-right: 1px solid gray;
+}
+
+.info-btn > span:first-of-type:hover {
+  background-color: gray;
+}
+
+.info-btn > span:last-of-type:hover {
+  color: blue;
 }
