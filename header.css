@@ -41,6 +41,16 @@
   justify-content: space-between;
 }
 
+.desktop-header a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 6px;
+}
+
+.desktop-header a:hover {
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 1024px) {
   .mobile-header {
     display: flex;
